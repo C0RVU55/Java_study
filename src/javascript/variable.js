@@ -76,3 +76,10 @@ console.log(`value: ${text}, type: ${typeof text}`); // value: 75, type: string
 text = "8" / "2" ;
 console.log(`value: ${text}, type: ${typeof text}`); // value: 4, type: number
 console.log(text.charAt(0)); // 숫자라 오류남
+
+// 6. 논리 연산자
+// || or은 처음에 참이면 뒤는 안 따지기 때문에 조건에 처음에는 간단한 값 뒤에는 복잡한 함수를 넣는 게 좋음.
+// && and도 마찬가지.
+
+// 9. Ternary operator: ?
+// 조건 ? 참값 : 거짓값 --> 여러 조건문은 case나 else if가 낫고 이거는 간단한 조건문에 추천
